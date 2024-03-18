@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <header class="header">
+    <a class="logo">Luan</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Inicio</a>
+      <a href="#about">Sobre</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3 id="title">Ola, It's me</h3>
+      <h1>Luan</h1>
+      <h3>Eu sou um <span>BackEnd Developer</span></h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+        <br />
+        ratione soluta quasi fuga sit rem.
+      </p>
+      <div class="social-media">
+        <a target="_blank" href="https://www.linkedin.com/in/luan-patrick-2b3646249/"><i class="bx bxl-linkedin"></i></a>
+        <a target="_blank" href="https://twitter.com/kefan911"><i class="bx bxl-twitter"></i></a>
+        <a target="_blank" href="https://www.instagram.com/luan.abreu"><i class="bx bxl-instagram-alt"></i></a>
+        <a target="_blank" href="https://github.com/Kifffo"><i class="bx bxl-github"></i></a>
+      </div>
+      <a class="btn" href="#">Entre em contato</a>
+    </div>
+
+    <div class="home-img">
+      <img src="./images/logo.jpeg" alt="LogoMy" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./images/logo.jpeg" alt="LogoMy" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">Sobre <span> Mim</span></h2>
+      <h3>BakcEnd Developer</h3>
+      <p>
+        Sou apaixonado por tecnologia, especializado em Java. Com profundo conhecimento em
+        frameworks como Spring e Hibernate, projeto e implemento soluções robustas. Apaixonado
+        por resolver desafios complexos, contribui para o desenvolvimento de sistemas escaláveis e
+        eficientes, garantindo a excelência em cada linha de código.
+      </p>
+      <a href="#" class="btn">Saiba mais</a>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+
+    <h2 class="titulo heading">Minhas <span>Skills</span></h2>
+
+    <div class="container ">
+      <div class="interface">
+        <div class="flex">
+          <div class="flip">
+            <div class="frente">
+            </div><!-- frente -->
+            <div class="tras">
+              <p>Programação</p>
+            </div> <!-- tras -->
+          </div> <!-- flip -->
+        </div> <!-- flex -->
+      </div> <!-- interface -->
+      <div class="interface">
+        <div class="flex">
+          <div class="flip">
+            <div class="frente1">
+            </div><!-- frente -->
+            <div class="tras">
+              <p>Análise de Dados</p>
+            </div> <!-- tras -->
+          </div> <!-- flip -->
+        </div> <!-- flex -->
+      </div> <!-- interface -->
+      <div class="interface">
+        <div class="flex">
+          <div class="flip">
+            <div class="frente2">
+            </div><!-- frente -->
+            <div class="tras">
+              <p>Comunicação</p>
+            </div> <!-- tras -->
+          </div> <!-- flip -->
+        </div> <!-- flex -->
+      </div> <!-- interface -->
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+
+    <h2 class="titulo heading">Meus <span>Projetos</span></h2>
+
+    <div class="inter">
+      <div class="boyboyflend site1">
+      </div>
+      <div class="boyboyflend site2">
+      </div>
+      <div class="boyboyflend site3">
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2 class="titulo heading">Fale <span>Comigo</span></h2>
+    <div class="interf">
+      <!-- <form action=""> -->
+      <div class="wrapper">
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="name">Nome</label>
+        </div><!--input-Data-->
+      </div><!--wrapper-->
+      <div class="wrapper">
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="name">Celular</label>
+        </div><!--input-Data-->
+      </div><!--wrapper-->
+      <div class="wrapper">
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="name">Email</label>
+        </div><!--input-Data-->
+      </div><!--wrapper-->
+      <div class="wrapper">
+        <div class="input-data">
+          <input type="text" required>
+          <div class="underline"></div>
+          <label for="name">Mensagem</label>
+        </div><!--input-Data-->
+      </div><!--wrapper-->
+      <button>Enviar</button>
+      <!-- </form> -->
+    </div><!--interf-->
+  </section><!--formulario-->
+
+  <footer>
+
+    <div class="hero2">
+      <div class="contact">
+        <h2 class="phone">PHONE <br /> <a href="#Home">(31) 3808-0800</a></h2>
+        <img src="images/LogoFundo.png" alt="Logo">
+        <h2 class="email">EMAIL <br /> <a href="mailto:LP@gmail.com">LP@gmail.com</a></h2>
+      </div>
+    </div>
+
+    <div class="rodape">
+      <div class="recuo"></div>
+      <p>@Feito com carinho pela Grupo 2 🩵</p> 
+      <div class="btn-square">
+        <a href="#home"><button><img src="images/Up-arrow-vector.png"
+              alt="Seta para cima / retornar a home"></button></a>
+      </div> 
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
